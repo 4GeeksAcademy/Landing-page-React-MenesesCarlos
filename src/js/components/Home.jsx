@@ -5,19 +5,18 @@ import Footer from "../Footer";
 import Card from "./Card";
 
 
-
 //create your first component
 const Home = () => {
-	return (
-		<>
-		<div className="text-center">
-            <Navbar/>
-			<Content/>
-			<Card/>
-			<Footer/>		
-		</div>
-		</>
-	);
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Content />
+        <Card />
+      </main>
+      <Footer />
+    </>
+  );
 };
 
 export default Home;

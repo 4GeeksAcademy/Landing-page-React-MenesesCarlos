@@ -1,12 +1,17 @@
 /* Contenedor padre */
 .container{
-  max-width: 950px;      
+  max-width: 1050px;      
 }
 /* contenedor padre de contentjsx */
 .header-content{
-     max-width: 850px; 
+     max-width: 1000px; 
 }
 /* parrado de contentjsx justificado */
 .text-justify {
   text-align: justify;
+}
+/* Card */
+.container-card{
+  max-width: 1000px;
+  align-items:center;
 }
